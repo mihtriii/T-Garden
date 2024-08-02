@@ -1,0 +1,183 @@
+.TG_Login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+        &_Left {
+            flex: 6;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            &_Background {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &_Right {
+            flex: 4;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(243, 243, 92, 1);
+            &_Logintext {
+                font-size: 96px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 10%;
+                &_underline {
+                    width: 70%;
+                    height: 2px;
+                    margin: 0 auto;
+                    background-color: black;
+                }
+            }
+            &_Enterusername {
+                justify-content: flex-start;
+                align-items: center;
+                display: flex;
+                margin-top: 100px;
+                width: 70%;
+                height: 40px;
+                margin-left: 15%;
+                &_icon {
+                    width: 100%;
+                    height: 100%;
+                }
+                &_container {
+                    width: 80%;
+                    height: 30px;
+                    margin-left: 10px; 
+                    border-radius: 5px;
+                    background-color: rgba(243, 243, 92, 1);
+                    &_input {
+                        width: 100%;
+                        height: 100%;
+                        font-size: 15px;
+                        outline: none;
+                        border: none;
+                        background-color: rgba(243, 243, 92, 1);
+                    }   
+                    &_underline {
+                        width: 100%;
+                        height: 1px;
+                        background-color: black;
+                    }
+                }
+            }
+            &_Enterpassword {
+                justify-content: flex-start;
+                align-items: center;
+                display: flex;
+                margin-top: 55px;
+                width: 70%;
+                height: 40px;
+                margin-left: 15%;
+                &_icon {
+                    width: 100%;
+                    height: 100%;
+                }
+                &_container {
+                    width: 80%;
+                    height: 30px;
+                    margin-left: 10px; 
+                    border-radius: 5px;
+                    background-color: rgba(243, 243, 92, 1);
+                    &_input {
+                        width: 100%;
+                        height: 100%;
+                        font-size: 15px;
+                        outline: none;
+                        border: none;
+                        background-color: rgba(243, 243, 92, 1);
+                    }   
+                    &_underline {
+                        width: 100%;
+                        height: 1px;
+                        background-color: black;
+                    }
+                }
+                &_Revealpasswordicon {
+                    border: none;
+                    outline : none;
+                    background-color: rgba(243, 243, 92, 1);
+                }
+            }
+            &_Forgotpassword {
+                display: flex;
+                justify-content: center; // Add this line
+                align-items: center;
+                font-weight: regular;
+                margin-top: 20px;
+                font-size: 15px;
+                color: gray;
+                outline: none;
+                border: none;
+                background-color: rgba(243, 243, 92, 1);
+                cursor: pointer;
+            }
+            &_Rememberme {
+                width: 70%;
+                height: 40px;
+                display: flex;
+                justify-content: flex-start; // Add this line
+                align-items: center;
+                margin-left: 15%;
+                &_checkbox {
+                    border: none;
+                    outline : none;
+                    background-color: rgba(243, 243, 92, 1);
+                    width: 20px;
+                    height: 20px;
+                }
+                &_text {
+                    font-size: 15px;
+                    margin-left: 10px;
+                    font-weight: regular;
+                }
+            }
+            &_Enter {
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+                display: flex;
+                background-color: rgb(226, 224, 224);
+                color: black;
+                font-weight: bold;
+                border: none;
+                border-radius: 5px ;
+                padding: 10px 20px;
+                cursor: pointer;
+                width: 30%;
+                font-size: large;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;     
+            }
+            &_Contact{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35%;
+                margin-bottom: 15%;
+                width: 100%;
+                height: 15px;
+                font-size: 15px;
+                color: gray;
+                &_icon {
+                    border: none;
+                    outline : none;
+                    background-color: rgba(243, 243, 92, 1);
+                }
+                &_text {
+                    margin-left: 10px;
+                    font-weight: regular;
+                    &_underline {
+                        width: 100%;
+                        height: 1px;
+                        background-color: black;
+                    }
+                }
+            }
+
+        }
+}

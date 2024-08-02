@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.scss';
-import './component/Weather/weather';
+import Login from './component/Auth/Login/Login';
 function App() {
   return (
-    i
+    <div className='App' style={{width: '100vw', height: '100vh'}}>
+      <Login/>
+    </div>
   );
 }
 
