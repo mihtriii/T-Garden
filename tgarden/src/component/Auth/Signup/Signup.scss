@@ -1,4 +1,4 @@
-.TG_Login {
+.TG_Signup {
   display: flex;
   width: 100%;
   height: 100%;
@@ -18,7 +18,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(243, 243, 92, 1);
-    &_Logintext {
+    &_Signuptext {
       font-size: 96px;
       font-weight: bold;
       text-align: center;
@@ -101,39 +101,44 @@
         background-color: rgba(243, 243, 92, 1);
       }
     }
-    &_Forgotpassword {
-      display: flex;
-      justify-content: center; // Add this line
-      align-items: center;
-      font-weight: regular;
-      margin-top: 20px;
-      font-size: 15px;
-      color: gray;
-      outline: none;
-      border: none;
-      background-color: rgba(243, 243, 92, 1);
-      cursor: pointer;
-    }
-    &_Rememberme {
-      width: 70%;
-      height: 40px;
-      display: flex;
-      justify-content: flex-start; // Add this line
-      align-items: center;
-      margin-left: 15%;
-      &_checkbox {
-        border: none;
-        outline: none;
-        background-color: rgba(243, 243, 92, 1);
-        width: 20px;
-        height: 20px;
+    &_Confirmpassword {
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        margin-top: 55px;
+        width: 70%;
+        height: 40px;
+        margin-left: 15%;
+        &_icon {
+          width: 100%;
+          height: 100%;
+        }
+        &_container {
+          width: 80%;
+          height: 30px;
+          margin-left: 10px;
+          border-radius: 5px;
+          background-color: rgba(243, 243, 92, 1);
+          &_input {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            outline: none;
+            border: none;
+            background-color: rgba(243, 243, 92, 1);
+          }
+          &_underline {
+            width: 100%;
+            height: 1px;
+            background-color: black;
+          }
+        }
+        &_Revealpasswordbuttonicon {
+          border: none;
+          outline: none;
+          background-color: rgba(243, 243, 92, 1);
+        }
       }
-      &_text {
-        font-size: 15px;
-        margin-left: 10px;
-        font-weight: regular;
-      }
-    }
     &_Enter {
       display: flex;
       justify-content: center;
