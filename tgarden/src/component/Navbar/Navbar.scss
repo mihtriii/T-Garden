@@ -1,0 +1,95 @@
+.TG_Nabar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: brown;
+
+  &_Left {
+    flex: 1;
+    background-color: aqua;
+    &_Logo {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+    }
+  }
+
+  &_Center {
+    flex: 8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+
+    &_chatbot {
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    &_weather {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    &_home {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    &_notifications {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+
+    &_settings {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+  }
+
+  &_Right {
+    flex: 1;
+    background-color: rgb(255, 60, 0);
+    &_Logo {
+      margin-left: 3%;
+      height: 100%;
+      width: 50px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+    }
+  }
+}

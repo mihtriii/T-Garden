@@ -60,7 +60,7 @@ const Signup = () => {
           </div>
           <button onClick={revealpasswordButton}>
             {setrevealpassword ? (
-              <IoIosEye size={25} />
+              <IoIosEye size={25}/>
             ) : (
               <IoIosEyeOff size={25} />
             )}
@@ -102,7 +102,7 @@ const Signup = () => {
           </button>
         </div>
         <div className="TG_Signup_Right_Contact">
-          <TfiWorld size={20} className="TG_Signup_Right_Contact_icon"/>
+          <TfiWorld size={20} className="TG_Signup_Right_Contact_icon" />
           <div className="TG_Signup_Right_Contact_text">
             Contact us: abc@durianmail.com
             <div className="TG_Signup_Right_Contact_text_underline" div />
