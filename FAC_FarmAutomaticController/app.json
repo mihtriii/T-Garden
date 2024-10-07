@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "FAC_FarmAutomaticController",
+    "slug": "facfarmautomaticcontroller-4hckflgnivdiupan5nyd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "FAC"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nqd2308.FAC_FarmAutomaticController"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95caca11-519f-4c69-b128-d7da3e291a2b"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "owner": "nqd2399"
+  }
+}

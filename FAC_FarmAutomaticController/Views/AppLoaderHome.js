@@ -1,0 +1,27 @@
+import { Text, View, StyleSheet } from "react-native";
+import React, { Component } from "react";
+import LottieView from "lottie-react-native";
+
+export default class AppLoaderHome extends Component {
+  render() {
+    return (
+      <View style={[styles.container]}>
+        <LottieView
+          source={require("../assets/img/loaderHome.json")}
+          autoPlay
+          loop
+          style={{ width: "20%", height: "20 %"}}
+        />
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "white",
+    zIndex: 1,
+  },
+});
